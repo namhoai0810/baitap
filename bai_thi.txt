@@ -1,0 +1,50 @@
+1.  What is the lambda function in Python? Why does it exist in Python?
+- Lambada function là một hàm định được định nghĩa không có tên. Thường khi
+định nghĩa 1 hàm thì cần từ khóa def thì hàm lambada được định nghĩa bằng
+từ khóa lambda
+- Khi sử dụng lambada function sẽ tối ưu hóa và ngắn gọn hơn vì khi sử dụng tránh
+được việc định nghĩa những hàm sử lý chức năng đơn giản 
+2. What is pass in Python?
+- Pass là một câu lệnh trong python có chức năng để giữ chỗ cho các hàm, vòng lặp
+mà đã thêm vào nhưng chưa dùng đến. Thường khi định nghĩa 1 hàm hoặc vòng lặp cần
+có câu lệnh để chạy chương trình nhưng ta chưa biết cần viết câu lệnh gì phù hợp
+nên cần dùng pass để giữ cho hàm hoặc vòng lặp không bị lỗi khi biên dịch
+3. What is *args, **kwargs in function definition?
+- *args và **kwargs được sử dụng trong định nghĩa hàm để truyền bao nhiêu tham số
+vào hàm cũng được
+- Cách sử dụng của **kwargs trong định nghĩa hàm không sử dụng để truyền tham số 
+lần lượt 1 cách thông thường mà nó sử dụng cho các tham số được đặt tên ví dụ theo
+dạng key, value
+4. What is docstring in Python? How to write them? Are they required?
+- Docstring tạo điều kiện liên kết tài liệu với các mô-đun, hàm, lớp và phương thức 
+Python. Docstring của một đối tượng được định nghĩa bằng cách bao gồm một hằng chuỗi
+làm câu lệnh đầu tiên trong định nghĩa của đối tượng. Nó được chỉ định trong mã nguồn
+, được sử dụng, giống như một nhận xét, để ghi lại một đoạn mã cụ thể. Không giống
+như comment docsstring phải mô tả chức năng hoạt động 
+- Cách sử dụng :
+b1: Khai báo Docstrings trong python
+- Khai báo bằng các sử dụng "" ngoặc kép hoặc ngoặc kép ba " "" bên dưới khai báo
+lớp
+b2: Truy cập Docstrings
+- Truy cập bằng phương thực __doc__ của đối tượng
+
+Việc sử dụng docstrings cần thiết vì khi cần chia sẻ code cho một người khác nên
+sử dụng docstrings để mô tả lại tài liệu sử dụng với các hàm, lớp cho người khác
+hiểu
+5. What are the built-in data types that Python provides? Which of them are mutable, which are immutable?
+Python cung cấp 1 số built-in data types là list, tuple, set, dictinary
+Những built-data types có thể biến đổi là: list, dictionary
+Những built-data types không biến đổi là: set, tuple
+6. What is the difference between list and tuple types in Python?
+List có thẻ thay đổi các giá trị 
+Tuple không thẻ thay đổi các giá trị
+7, What keywords can be used in conjunction with the for keyword?
+in
+8, 8, What's the difference between globals(), locals(), and vars()?
+globals(): là 
+
+16. What is the output of -12 % 10 and -12 // 10.
+output: -12 % 10 
+8
+output: -12 // 10
+-2
