@@ -1,3 +1,5 @@
+
+# Write a function that returns a string of numbers from 0 to 100, "0123456789101112...".
 def returnform_0to100():
     string = ""
     for item in range(0,101):
